@@ -9,25 +9,25 @@ RC카를 제어하기 위해 하드웨어로 라즈베리파이를 사용하였�
 
 ## 1. 설계 과정
 ![image](https://user-images.githubusercontent.com/97801319/211216285-217638d2-d903-476e-ba45-8343e2bc74b7.png)
-![image](https://user-images.githubusercontent.com/97801319/211216308-cc9acb5a-da32-45c2-aff5-a0f7bac5e4f8.png)
+<img src="https://user-images.githubusercontent.com/97801319/211216308-cc9acb5a-da32-45c2-aff5-a0f7bac5e4f8.png" width="500">
 
 ## 2. 라인 색상 추출
-![image](https://user-images.githubusercontent.com/97801319/211216337-f78e6977-0892-4847-8256-01daf9a2be40.png)
-![image](https://user-images.githubusercontent.com/97801319/211216339-32b8b5ac-2ad8-4420-bbff-9ce2b1e986de.png)
+<img src="https://user-images.githubusercontent.com/97801319/211216337-f78e6977-0892-4847-8256-01daf9a2be40.png" width="500">
+<img src="https://user-images.githubusercontent.com/97801319/211216339-32b8b5ac-2ad8-4420-bbff-9ce2b1e986de.png" width="250">
 
 ## 3. Cv2.HoughLinesP( ) -> 선분 그리기
-![image](https://user-images.githubusercontent.com/97801319/211216450-da7ca547-57d6-4044-8e14-a5c5f95d6198.png)
-![image](https://user-images.githubusercontent.com/97801319/211216454-7aa9f366-4224-4763-86fa-1b8ae4782a73.png)
+<img src="https://user-images.githubusercontent.com/97801319/211216450-da7ca547-57d6-4044-8e14-a5c5f95d6198.png" width="500">
+<img src="https://user-images.githubusercontent.com/97801319/211216454-7aa9f366-4224-4763-86fa-1b8ae4782a73.png" width="500">
 
 ## 4. Mjpg 스트리밍
-![image](https://user-images.githubusercontent.com/97801319/211216482-ad12071b-ac2b-4e28-9fce-c132f0b93cd1.png)
+<img src="https://user-images.githubusercontent.com/97801319/211216482-ad12071b-ac2b-4e28-9fce-c132f0b93cd1.png" width="500">
 
 ## 5. 선분의 기울기 구하기
-![image](https://user-images.githubusercontent.com/97801319/211216925-ad159d15-bae1-4155-a049-53f948d5d282.png)
+<img src="https://user-images.githubusercontent.com/97801319/211216925-ad159d15-bae1-4155-a049-53f948d5d282.png" width="500">
 y 좌표로 x 좌표의 시작과 끝을 구한다음 x의 증가량과 y의 증가량으로 전체적인 기울기를 구함
 
 ## 6. 주행 방향 판단
-![image](https://user-images.githubusercontent.com/97801319/211216961-ce54c9c4-d9cc-43ea-8b56-30c4327b2e4b.png)
+<img src="https://user-images.githubusercontent.com/97801319/211216961-ce54c9c4-d9cc-43ea-8b56-30c4327b2e4b.png" width="500">
 pwm.ChangeDutyCycle([duty cycle]) 함수를 사용하면, 0%~100% 사이의 [duty cycle] 값으로 바꿀 수 있다.
 
 ## 7. 주행 결과
